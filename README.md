@@ -10,6 +10,6 @@ A simple Rust-based app that creates an MQTT subscriber and publisher
 
 | Publisher | Subscriber
 |---|---
-| <tt>Publishing messages on topic "rust/mqtt"<br>Publishing messages on topic "rust/test"<br>Publishing messages on topic "rust/mqtt"<br>Publishing messages on topic "rust/test"<br>Publishing messages on topic "rust/mqtt"<br>Disconnecting from the broker</tt> | <tt>Processing requests...<br>rust/mqtt: Hello world! 0<br>rust/test: Hello world! 1<br>rust/mqtt: Hello world! 2<br>rust/test: Hello world! 3<br>rust/mqtt: Hello world! 4</tt>
+| <code>Publishing messages on topic "rust/mqtt"<br>Publishing messages on topic "rust/test"<br>Publishing messages on topic "rust/mqtt"<br>Publishing messages on topic "rust/test"<br>Publishing messages on topic "rust/mqtt"<br>Disconnecting from the broker</code> | <code>Processing requests...<br>rust/mqtt: Hello world! 0<br>rust/test: Hello world! 1<br>rust/mqtt: Hello world! 2<br>rust/test: Hello world! 3<br>rust/mqtt: Hello world! 4</code>
 
 Press `ctrl c` to terminate the subscriber
