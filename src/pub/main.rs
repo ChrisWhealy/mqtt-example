@@ -10,6 +10,7 @@ const QOS: i32 = 1;
 
 const MSG: &[u8] = "Hello world! ".as_bytes();
 
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 fn main() {
     let host = env::args()
         .nth(1)
